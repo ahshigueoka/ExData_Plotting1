@@ -1,4 +1,7 @@
-plot4 <- function(df) {
+plot4 <- function() {
+    # Load the desired data
+    df <- filter_data()
+
 	# Create the file plot4.png to plot to
     # Image size of 480x480 pixels
     png(filename = "plot4.png", width = 480, height = 480)
